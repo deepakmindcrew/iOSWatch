@@ -1,0 +1,1252 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		182863FF25E67661008CE727 /* EmptyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 182863FE25E67661008CE727 /* EmptyView.swift */; };
+		1839395225CBCF2800AF760A /* BaseHomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1839395125CBCF2800AF760A /* BaseHomeView.swift */; };
+		1839395F25CC0B3100AF760A /* TestWorkoutInitialPager_View.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1839395E25CC0B3100AF760A /* TestWorkoutInitialPager_View.swift */; };
+		1839399325CC579500AF760A /* TestWorkoutStartTimer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1839399225CC579500AF760A /* TestWorkoutStartTimer.swift */; };
+		183939A325CD2A4D00AF760A /* TestWorkoutDashboard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 183939A225CD2A4D00AF760A /* TestWorkoutDashboard.swift */; };
+		18609EC625DA688F002AA8B9 /* TimePicker_view.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18609EC525DA688F002AA8B9 /* TimePicker_view.swift */; };
+		189175FE25D3B001009FD12C /* PagerBaseView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 189175FD25D3B001009FD12C /* PagerBaseView.swift */; };
+		18B392FB25E0BDEA001285F2 /* CompleteWorkout_View.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18B392FA25E0BDEA001285F2 /* CompleteWorkout_View.swift */; };
+		18B3931225E20ED4001285F2 /* BarChart.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18B3931125E20ED3001285F2 /* BarChart.swift */; };
+		18B8793125E2800C0093D47D /* Data.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18B8792F25E2800B0093D47D /* Data.swift */; };
+		18B8793225E2800C0093D47D /* BarWithLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18B8793025E2800B0093D47D /* BarWithLabel.swift */; };
+		18D45860260DC82600170889 /* HealthKitManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18D4585F260DC82600170889 /* HealthKitManager.swift */; };
+		18FDDD4825F9EF8100E16C95 /* Phlex Swim Beta WatchKit App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = DA14ED4524C0A096000B4CF0 /* Phlex Swim Beta WatchKit App.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		18FDDED926036A8000E16C95 /* InsertWorkout_VM.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18FDDED826036A8000E16C95 /* InsertWorkout_VM.swift */; };
+		DA03D71724C769C000C0CC2B /* SCYFreeSwimWkt.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA03D71624C769C000C0CC2B /* SCYFreeSwimWkt.swift */; };
+		DA03D71A24C76A2300C0CC2B /* SCMFreeSwimWkt.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA03D71924C76A2300C0CC2B /* SCMFreeSwimWkt.swift */; };
+		DA03D71D24C76A7E00C0CC2B /* LCMFreeSwimWkt.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA03D71C24C76A7E00C0CC2B /* LCMFreeSwimWkt.swift */; };
+		DA03D72024C775AB00C0CC2B /* LCMFreeSwimPaging.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAD1879224C628980052A6F5 /* LCMFreeSwimPaging.swift */; };
+		DA0EB5CA24C0AC49001AE673 /* HealthKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DA0EB5C924C0AC49001AE673 /* HealthKit.framework */; };
+		DA0EB5E124C0ACB6001AE673 /* PagingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA0EB5CF24C0ACB6001AE673 /* PagingView.swift */; };
+		DA0EB5E224C0ACB6001AE673 /* StatsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA0EB5D024C0ACB6001AE673 /* StatsView.swift */; };
+		DA0EB5E324C0ACB6001AE673 /* RemindersView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA0EB5D124C0ACB6001AE673 /* RemindersView.swift */; };
+		DA0EB5E424C0ACB6001AE673 /* HeartData.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA0EB5D224C0ACB6001AE673 /* HeartData.swift */; };
+		DA0EB5E524C0ACB6001AE673 /* MenuButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA0EB5D424C0ACB6001AE673 /* MenuButton.swift */; };
+		DA0EB5E624C0ACB6001AE673 /* MenuView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA0EB5D524C0ACB6001AE673 /* MenuView.swift */; };
+		DA0EB5E724C0ACB6001AE673 /* SmartAnalysis.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA0EB5D624C0ACB6001AE673 /* SmartAnalysis.swift */; };
+		DA0EB5E824C0ACB6001AE673 /* WorkoutManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA0EB5D824C0ACB6001AE673 /* WorkoutManager.swift */; };
+		DA0EB5E924C0ACB6001AE673 /* CoreMotionTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA0EB5D924C0ACB6001AE673 /* CoreMotionTest.swift */; };
+		DA0EB5EA24C0ACB6001AE673 /* MotionManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA0EB5DA24C0ACB6001AE673 /* MotionManager.swift */; };
+		DA0EB5EC24C0ACB6001AE673 /* StartWorkoutView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA0EB5DC24C0ACB6001AE673 /* StartWorkoutView.swift */; };
+		DA0EB5EE24C0ACB6001AE673 /* GuidedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA0EB5DE24C0ACB6001AE673 /* GuidedView.swift */; };
+		DA0EB5F224C0ACF3001AE673 /* RingFill.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA0EB5F024C0ACF3001AE673 /* RingFill.swift */; };
+		DA0EB5F324C0ACF3001AE673 /* ColorManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA0EB5F124C0ACF3001AE673 /* ColorManager.swift */; };
+		DA0EB5F424C0ACF9001AE673 /* RingFill.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA0EB5F024C0ACF3001AE673 /* RingFill.swift */; };
+		DA0EB5F524C0ACFB001AE673 /* ColorManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA0EB5F124C0ACF3001AE673 /* ColorManager.swift */; };
+		DA0EB5F724C0B0EA001AE673 /* Colors.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DA0EB5F624C0B0E9001AE673 /* Colors.xcassets */; };
+		DA14ED2324C0A094000B4CF0 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA14ED2224C0A094000B4CF0 /* ContentView.swift */; };
+		DA14ED2524C0A095000B4CF0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DA14ED2424C0A095000B4CF0 /* Assets.xcassets */; };
+		DA14ED2824C0A095000B4CF0 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DA14ED2724C0A095000B4CF0 /* Preview Assets.xcassets */; };
+		DA14ED2B24C0A095000B4CF0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DA14ED2924C0A095000B4CF0 /* LaunchScreen.storyboard */; };
+		DA14ED4C24C0A096000B4CF0 /* Interface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DA14ED4A24C0A096000B4CF0 /* Interface.storyboard */; };
+		DA14ED4E24C0A097000B4CF0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DA14ED4D24C0A097000B4CF0 /* Assets.xcassets */; };
+		DA14ED5524C0A097000B4CF0 /* Phlex Swim Beta WatchKit Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = DA14ED5424C0A097000B4CF0 /* Phlex Swim Beta WatchKit Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		DA14ED5A24C0A097000B4CF0 /* HostingController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA14ED5924C0A097000B4CF0 /* HostingController.swift */; };
+		DA14ED5E24C0A097000B4CF0 /* ExtensionDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA14ED5D24C0A097000B4CF0 /* ExtensionDelegate.swift */; };
+		DA14ED6024C0A097000B4CF0 /* NotificationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA14ED5F24C0A097000B4CF0 /* NotificationController.swift */; };
+		DA14ED6224C0A097000B4CF0 /* NotificationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA14ED6124C0A097000B4CF0 /* NotificationView.swift */; };
+		DA14ED6424C0A097000B4CF0 /* ComplicationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA14ED6324C0A097000B4CF0 /* ComplicationController.swift */; };
+		DA14ED6624C0A098000B4CF0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DA14ED6524C0A098000B4CF0 /* Assets.xcassets */; };
+		DA14ED6924C0A098000B4CF0 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DA14ED6824C0A098000B4CF0 /* Preview Assets.xcassets */; };
+		DA1E939524C6184F0014FF3C /* TestView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA1E939424C6184F0014FF3C /* TestView.swift */; };
+		DA430C5A25BD326A0056640A /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA430C5425BD325A0056640A /* ContentView.swift */; };
+		DA430C6625BD33570056640A /* StartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA430C6525BD33570056640A /* StartView.swift */; };
+		DA4A45A425C31AF10084A1CE /* HealthKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DA0EB5CB24C0AC4D001AE673 /* HealthKit.framework */; };
+		DA4A45B825C31C2A0084A1CE /* ModalSheetView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA4A45B325C31C2A0084A1CE /* ModalSheetView.swift */; };
+		DA4A45B925C31C2A0084A1CE /* ExploreView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA4A45B425C31C2A0084A1CE /* ExploreView.swift */; };
+		DA4A45BA25C31C2A0084A1CE /* LocationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA4A45B525C31C2A0084A1CE /* LocationView.swift */; };
+		DA4A45BB25C31C2A0084A1CE /* SearchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA4A45B625C31C2A0084A1CE /* SearchView.swift */; };
+		DA4A45BC25C31C2A0084A1CE /* AirlineBookingApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA4A45B725C31C2A0084A1CE /* AirlineBookingApp.swift */; };
+		DA4A45C525C31E0E0084A1CE /* ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA4A45C425C31E0E0084A1CE /* ProfileView.swift */; };
+		DA4A45CA25C31E150084A1CE /* Colors.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DA4A45C925C31E150084A1CE /* Colors.xcassets */; };
+		DA4A45CF25C31E8E0084A1CE /* SegmentedControlView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA4A45CE25C31E8E0084A1CE /* SegmentedControlView.swift */; };
+		DA4A45D525C31FA70084A1CE /* ViewRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA4A45D425C31FA70084A1CE /* ViewRouter.swift */; };
+		DA4A45DA25C320780084A1CE /* PhlexSwimBeta.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA4A45D925C320780084A1CE /* PhlexSwimBeta.swift */; };
+		DA4A45E525C3263A0084A1CE /* Workout and Calendar View.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA4A45E425C3263A0084A1CE /* Workout and Calendar View.swift */; };
+		DA52B6BA24C162D400195A9D /* UnitConversion.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA52B6B924C162D400195A9D /* UnitConversion.swift */; };
+		DA56F7E825C3282800792C4D /* DashboardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA56F7E725C3282800792C4D /* DashboardView.swift */; };
+		DA56F7F025C3291800792C4D /* HorizontalDates.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA56F7EF25C3291800792C4D /* HorizontalDates.swift */; };
+		DA5E76FE24C0CF6000CBDC2B /* LocationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA5E76F924C0CBAE00CBDC2B /* LocationManager.swift */; };
+		DA5E76FF24C0CFCF00CBDC2B /* LocationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA5E76F924C0CBAE00CBDC2B /* LocationManager.swift */; };
+		DA5F7AEE24C1E2CD00FF0BF5 /* Colors.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DA0EB5F624C0B0E9001AE673 /* Colors.xcassets */; };
+		DA86678224C5E95D0087F2F9 /* DetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA86678124C5E95D0087F2F9 /* DetailView.swift */; };
+		DA86D92925C4865A0063545C /* Heart Rate View Option 1.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA86D92825C4865A0063545C /* Heart Rate View Option 1.swift */; };
+		DA8E6B9224C49DE900DEB325 /* StartWorkoutList.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA8E6B9024C49DC500DEB325 /* StartWorkoutList.swift */; };
+		DA8E6B9424C4A07C00DEB325 /* FreeSwimView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA8E6B9324C4A07C00DEB325 /* FreeSwimView.swift */; };
+		DA8E6B9824C4A0FC00DEB325 /* StatsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA8E6B9724C4A0FC00DEB325 /* StatsViewModel.swift */; };
+		DA8E6B9B24C4A11700DEB325 /* SmartAnalysisModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA8E6B9A24C4A11700DEB325 /* SmartAnalysisModel.swift */; };
+		DA8E6B9E24C4A12400DEB325 /* RemindersViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA8E6B9D24C4A12400DEB325 /* RemindersViewModel.swift */; };
+		DA8E6BA024C4A13A00DEB325 /* HeartRateView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA8E6B9F24C4A13A00DEB325 /* HeartRateView.swift */; };
+		DA9FEB1024C76360005B534A /* SCYFreeSwimPaging.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA9FEB0E24C76335005B534A /* SCYFreeSwimPaging.swift */; };
+		DA9FEB1224C7650F005B534A /* SCMFreeSwimPaging.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA9FEB1124C7650F005B534A /* SCMFreeSwimPaging.swift */; };
+		DAB7876E24C0BB5C00F5BD5D /* Open Water View.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAB7876C24C0BB5600F5BD5D /* Open Water View.swift */; };
+		DACBA50B24C5E108006398F7 /* Heart Rate Explainer.swift in Sources */ = {isa = PBXBuildFile; fileRef = DACBA50A24C5E108006398F7 /* Heart Rate Explainer.swift */; };
+		DACBA50E24C5E118006398F7 /* FreeSwimExplainer.swift in Sources */ = {isa = PBXBuildFile; fileRef = DACBA50D24C5E118006398F7 /* FreeSwimExplainer.swift */; };
+		DACBA51224C5E132006398F7 /* OpenWaterExplainer.swift in Sources */ = {isa = PBXBuildFile; fileRef = DACBA51124C5E132006398F7 /* OpenWaterExplainer.swift */; };
+		DACBA51524C5E140006398F7 /* GuidedWorkoutExplainer.swift in Sources */ = {isa = PBXBuildFile; fileRef = DACBA51424C5E140006398F7 /* GuidedWorkoutExplainer.swift */; };
+		DACBA51724C5E157006398F7 /* PoolLengthChange.swift in Sources */ = {isa = PBXBuildFile; fileRef = DACBA51624C5E157006398F7 /* PoolLengthChange.swift */; };
+		DAD1879124C625670052A6F5 /* StartingWorkout.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAD1879024C625670052A6F5 /* StartingWorkout.swift */; };
+		DAD1879524C62B740052A6F5 /* GuidedWorkoutPager.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAD1879424C62B740052A6F5 /* GuidedWorkoutPager.swift */; };
+		DAD1879724C62CA30052A6F5 /* OpenWaterPaGING.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAD1879624C62CA30052A6F5 /* OpenWaterPaGING.swift */; };
+		DAD1879A24C636A00052A6F5 /* TestWorkoutPager.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAD1879924C636A00052A6F5 /* TestWorkoutPager.swift */; };
+		DAD1879C24C636A70052A6F5 /* TestWorkoutView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAD1879B24C636A70052A6F5 /* TestWorkoutView.swift */; };
+		DAD1879E24C636D60052A6F5 /* TestExplainer.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAD1879D24C636D60052A6F5 /* TestExplainer.swift */; };
+		EF24B0FFD6CD00AB7458BBB5 /* Pods_Phlex_Swim_Beta_WatchKit_App.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D99DD245182BC2905488D702 /* Pods_Phlex_Swim_Beta_WatchKit_App.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		DA14ED5624C0A097000B4CF0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DA14ED1324C0A094000B4CF0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DA14ED5324C0A097000B4CF0;
+			remoteInfo = "Phlex Swim Beta WatchKit Extension";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		DA14ED7124C0A098000B4CF0 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 12;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				DA14ED5524C0A097000B4CF0 /* Phlex Swim Beta WatchKit Extension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DA14ED7524C0A098000B4CF0 /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 8;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+				18FDDD4825F9EF8100E16C95 /* Phlex Swim Beta WatchKit App.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		04A8E0EF77E22BC7196CDE22 /* Pods_Phlex_Swim_Beta.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Phlex_Swim_Beta.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		182863FE25E67661008CE727 /* EmptyView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmptyView.swift; sourceTree = "<group>"; };
+		1839395125CBCF2800AF760A /* BaseHomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseHomeView.swift; sourceTree = "<group>"; };
+		1839395E25CC0B3100AF760A /* TestWorkoutInitialPager_View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestWorkoutInitialPager_View.swift; sourceTree = "<group>"; };
+		1839399225CC579500AF760A /* TestWorkoutStartTimer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestWorkoutStartTimer.swift; sourceTree = "<group>"; };
+		183939A225CD2A4D00AF760A /* TestWorkoutDashboard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestWorkoutDashboard.swift; sourceTree = "<group>"; };
+		18609EC525DA688F002AA8B9 /* TimePicker_view.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimePicker_view.swift; sourceTree = "<group>"; };
+		189175FD25D3B001009FD12C /* PagerBaseView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PagerBaseView.swift; sourceTree = "<group>"; };
+		18B392FA25E0BDEA001285F2 /* CompleteWorkout_View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CompleteWorkout_View.swift; sourceTree = "<group>"; };
+		18B3931125E20ED3001285F2 /* BarChart.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BarChart.swift; sourceTree = "<group>"; };
+		18B8792F25E2800B0093D47D /* Data.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Data.swift; sourceTree = "<group>"; };
+		18B8793025E2800B0093D47D /* BarWithLabel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BarWithLabel.swift; sourceTree = "<group>"; };
+		18D4585F260DC82600170889 /* HealthKitManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HealthKitManager.swift; sourceTree = "<group>"; };
+		18FDDD4125F8FE9100E16C95 /* Phlex Swim Beta WatchKit App.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "Phlex Swim Beta WatchKit App.entitlements"; sourceTree = "<group>"; };
+		18FDDED826036A8000E16C95 /* InsertWorkout_VM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InsertWorkout_VM.swift; sourceTree = "<group>"; };
+		327065C29C29316AB0FA9F21 /* Pods_Phlex_Swim_Beta_Phlex_Swim_BetaUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Phlex_Swim_Beta_Phlex_Swim_BetaUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		805803B8921A6C4FCA76D1A8 /* Pods_Phlex_Swim_Beta_WatchKit_Extension.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Phlex_Swim_Beta_WatchKit_Extension.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A6197E57D8863C21556B2AAD /* Pods_Phlex_Swim_BetaTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Phlex_Swim_BetaTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D99DD245182BC2905488D702 /* Pods_Phlex_Swim_Beta_WatchKit_App.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Phlex_Swim_Beta_WatchKit_App.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DA03D71624C769C000C0CC2B /* SCYFreeSwimWkt.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SCYFreeSwimWkt.swift; sourceTree = "<group>"; };
+		DA03D71924C76A2300C0CC2B /* SCMFreeSwimWkt.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SCMFreeSwimWkt.swift; sourceTree = "<group>"; };
+		DA03D71C24C76A7E00C0CC2B /* LCMFreeSwimWkt.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LCMFreeSwimWkt.swift; sourceTree = "<group>"; };
+		DA0EB5C924C0AC49001AE673 /* HealthKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = HealthKit.framework; path = Platforms/WatchOS.platform/Developer/SDKs/WatchOS7.0.sdk/System/Library/Frameworks/HealthKit.framework; sourceTree = DEVELOPER_DIR; };
+		DA0EB5CB24C0AC4D001AE673 /* HealthKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = HealthKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/HealthKit.framework; sourceTree = DEVELOPER_DIR; };
+		DA0EB5CF24C0ACB6001AE673 /* PagingView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PagingView.swift; sourceTree = "<group>"; };
+		DA0EB5D024C0ACB6001AE673 /* StatsView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StatsView.swift; sourceTree = "<group>"; };
+		DA0EB5D124C0ACB6001AE673 /* RemindersView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RemindersView.swift; sourceTree = "<group>"; };
+		DA0EB5D224C0ACB6001AE673 /* HeartData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HeartData.swift; sourceTree = "<group>"; };
+		DA0EB5D424C0ACB6001AE673 /* MenuButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MenuButton.swift; sourceTree = "<group>"; };
+		DA0EB5D524C0ACB6001AE673 /* MenuView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MenuView.swift; sourceTree = "<group>"; };
+		DA0EB5D624C0ACB6001AE673 /* SmartAnalysis.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SmartAnalysis.swift; sourceTree = "<group>"; };
+		DA0EB5D824C0ACB6001AE673 /* WorkoutManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WorkoutManager.swift; sourceTree = "<group>"; };
+		DA0EB5D924C0ACB6001AE673 /* CoreMotionTest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CoreMotionTest.swift; sourceTree = "<group>"; };
+		DA0EB5DA24C0ACB6001AE673 /* MotionManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MotionManager.swift; sourceTree = "<group>"; };
+		DA0EB5DC24C0ACB6001AE673 /* StartWorkoutView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StartWorkoutView.swift; sourceTree = "<group>"; };
+		DA0EB5DE24C0ACB6001AE673 /* GuidedView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GuidedView.swift; sourceTree = "<group>"; };
+		DA0EB5F024C0ACF3001AE673 /* RingFill.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RingFill.swift; sourceTree = "<group>"; };
+		DA0EB5F124C0ACF3001AE673 /* ColorManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ColorManager.swift; sourceTree = "<group>"; };
+		DA0EB5F624C0B0E9001AE673 /* Colors.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Colors.xcassets; sourceTree = "<group>"; };
+		DA14ED1B24C0A094000B4CF0 /* Phlex Swim Beta.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Phlex Swim Beta.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DA14ED2224C0A094000B4CF0 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		DA14ED2424C0A095000B4CF0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DA14ED2724C0A095000B4CF0 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		DA14ED2A24C0A095000B4CF0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		DA14ED2C24C0A095000B4CF0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DA14ED3524C0A096000B4CF0 /* Phlex_Swim_BetaTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Phlex_Swim_BetaTests.swift; sourceTree = "<group>"; };
+		DA14ED3724C0A096000B4CF0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DA14ED4024C0A096000B4CF0 /* Phlex_Swim_BetaUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Phlex_Swim_BetaUITests.swift; sourceTree = "<group>"; };
+		DA14ED4224C0A096000B4CF0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DA14ED4524C0A096000B4CF0 /* Phlex Swim Beta WatchKit App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Phlex Swim Beta WatchKit App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DA14ED4B24C0A096000B4CF0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Interface.storyboard; sourceTree = "<group>"; };
+		DA14ED4D24C0A097000B4CF0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DA14ED4F24C0A097000B4CF0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DA14ED5424C0A097000B4CF0 /* Phlex Swim Beta WatchKit Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "Phlex Swim Beta WatchKit Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DA14ED5924C0A097000B4CF0 /* HostingController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HostingController.swift; sourceTree = "<group>"; };
+		DA14ED5D24C0A097000B4CF0 /* ExtensionDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtensionDelegate.swift; sourceTree = "<group>"; };
+		DA14ED5F24C0A097000B4CF0 /* NotificationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationController.swift; sourceTree = "<group>"; };
+		DA14ED6124C0A097000B4CF0 /* NotificationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationView.swift; sourceTree = "<group>"; };
+		DA14ED6324C0A097000B4CF0 /* ComplicationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ComplicationController.swift; sourceTree = "<group>"; };
+		DA14ED6524C0A098000B4CF0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DA14ED6824C0A098000B4CF0 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		DA14ED6A24C0A098000B4CF0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DA14ED6B24C0A098000B4CF0 /* PushNotificationPayload.apns */ = {isa = PBXFileReference; lastKnownFileType = text; path = PushNotificationPayload.apns; sourceTree = "<group>"; };
+		DA1E939424C6184F0014FF3C /* TestView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestView.swift; sourceTree = "<group>"; };
+		DA430C5425BD325A0056640A /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		DA430C6525BD33570056640A /* StartView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StartView.swift; sourceTree = "<group>"; };
+		DA4A45B325C31C2A0084A1CE /* ModalSheetView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ModalSheetView.swift; sourceTree = "<group>"; };
+		DA4A45B425C31C2A0084A1CE /* ExploreView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ExploreView.swift; sourceTree = "<group>"; };
+		DA4A45B525C31C2A0084A1CE /* LocationView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LocationView.swift; sourceTree = "<group>"; };
+		DA4A45B625C31C2A0084A1CE /* SearchView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SearchView.swift; sourceTree = "<group>"; };
+		DA4A45B725C31C2A0084A1CE /* AirlineBookingApp.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AirlineBookingApp.swift; sourceTree = "<group>"; };
+		DA4A45C425C31E0E0084A1CE /* ProfileView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProfileView.swift; sourceTree = "<group>"; };
+		DA4A45C925C31E150084A1CE /* Colors.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Colors.xcassets; sourceTree = "<group>"; };
+		DA4A45CE25C31E8E0084A1CE /* SegmentedControlView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SegmentedControlView.swift; sourceTree = "<group>"; };
+		DA4A45D425C31FA70084A1CE /* ViewRouter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewRouter.swift; sourceTree = "<group>"; };
+		DA4A45D925C320780084A1CE /* PhlexSwimBeta.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PhlexSwimBeta.swift; sourceTree = "<group>"; };
+		DA4A45E425C3263A0084A1CE /* Workout and Calendar View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Workout and Calendar View.swift"; sourceTree = "<group>"; };
+		DA52B6B924C162D400195A9D /* UnitConversion.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UnitConversion.swift; sourceTree = "<group>"; };
+		DA56F7E725C3282800792C4D /* DashboardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DashboardView.swift; sourceTree = "<group>"; };
+		DA56F7EF25C3291800792C4D /* HorizontalDates.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HorizontalDates.swift; sourceTree = "<group>"; };
+		DA5E76F924C0CBAE00CBDC2B /* LocationManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = LocationManager.swift; path = "../../Phlex Swim Beta/LocationManager.swift"; sourceTree = "<group>"; };
+		DA86678124C5E95D0087F2F9 /* DetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailView.swift; sourceTree = "<group>"; };
+		DA86D92825C4865A0063545C /* Heart Rate View Option 1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Heart Rate View Option 1.swift"; sourceTree = "<group>"; };
+		DA8E6B9024C49DC500DEB325 /* StartWorkoutList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StartWorkoutList.swift; sourceTree = "<group>"; };
+		DA8E6B9324C4A07C00DEB325 /* FreeSwimView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FreeSwimView.swift; sourceTree = "<group>"; };
+		DA8E6B9724C4A0FC00DEB325 /* StatsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatsViewModel.swift; sourceTree = "<group>"; };
+		DA8E6B9A24C4A11700DEB325 /* SmartAnalysisModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SmartAnalysisModel.swift; sourceTree = "<group>"; };
+		DA8E6B9D24C4A12400DEB325 /* RemindersViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RemindersViewModel.swift; sourceTree = "<group>"; };
+		DA8E6B9F24C4A13A00DEB325 /* HeartRateView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeartRateView.swift; sourceTree = "<group>"; };
+		DA9FEB0D24C75A76005B534A /* MetricMeasurementTypeEnum.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MetricMeasurementTypeEnum.h; sourceTree = "<group>"; };
+		DA9FEB0E24C76335005B534A /* SCYFreeSwimPaging.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SCYFreeSwimPaging.swift; sourceTree = "<group>"; };
+		DA9FEB1124C7650F005B534A /* SCMFreeSwimPaging.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SCMFreeSwimPaging.swift; sourceTree = "<group>"; };
+		DAB7876C24C0BB5600F5BD5D /* Open Water View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Open Water View.swift"; sourceTree = "<group>"; };
+		DACBA50A24C5E108006398F7 /* Heart Rate Explainer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Heart Rate Explainer.swift"; sourceTree = "<group>"; };
+		DACBA50D24C5E118006398F7 /* FreeSwimExplainer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FreeSwimExplainer.swift; sourceTree = "<group>"; };
+		DACBA51124C5E132006398F7 /* OpenWaterExplainer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OpenWaterExplainer.swift; sourceTree = "<group>"; };
+		DACBA51424C5E140006398F7 /* GuidedWorkoutExplainer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GuidedWorkoutExplainer.swift; sourceTree = "<group>"; };
+		DACBA51624C5E157006398F7 /* PoolLengthChange.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PoolLengthChange.swift; sourceTree = "<group>"; };
+		DAD1879024C625670052A6F5 /* StartingWorkout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StartingWorkout.swift; sourceTree = "<group>"; };
+		DAD1879224C628980052A6F5 /* LCMFreeSwimPaging.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LCMFreeSwimPaging.swift; sourceTree = "<group>"; };
+		DAD1879424C62B740052A6F5 /* GuidedWorkoutPager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GuidedWorkoutPager.swift; sourceTree = "<group>"; };
+		DAD1879624C62CA30052A6F5 /* OpenWaterPaGING.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OpenWaterPaGING.swift; sourceTree = "<group>"; };
+		DAD1879924C636A00052A6F5 /* TestWorkoutPager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestWorkoutPager.swift; sourceTree = "<group>"; };
+		DAD1879B24C636A70052A6F5 /* TestWorkoutView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestWorkoutView.swift; sourceTree = "<group>"; };
+		DAD1879D24C636D60052A6F5 /* TestExplainer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestExplainer.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3F2FD8326547DBEC42DECE4F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EF24B0FFD6CD00AB7458BBB5 /* Pods_Phlex_Swim_Beta_WatchKit_App.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DA14ED1824C0A094000B4CF0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DA4A45A425C31AF10084A1CE /* HealthKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DA14ED5124C0A097000B4CF0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DA0EB5CA24C0AC49001AE673 /* HealthKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1839394D25CBCE0100AF760A /* BaseHomeView */ = {
+			isa = PBXGroup;
+			children = (
+				1839395125CBCF2800AF760A /* BaseHomeView.swift */,
+				182863FE25E67661008CE727 /* EmptyView.swift */,
+			);
+			path = BaseHomeView;
+			sourceTree = "<group>";
+		};
+		18B8792B25E27F8B0093D47D /* BarChart */ = {
+			isa = PBXGroup;
+			children = (
+				18B3931125E20ED3001285F2 /* BarChart.swift */,
+				18B8793025E2800B0093D47D /* BarWithLabel.swift */,
+				18B8792F25E2800B0093D47D /* Data.swift */,
+			);
+			path = BarChart;
+			sourceTree = "<group>";
+		};
+		18FDDED726036A3500E16C95 /* View Model */ = {
+			isa = PBXGroup;
+			children = (
+				18FDDED826036A8000E16C95 /* InsertWorkout_VM.swift */,
+			);
+			path = "View Model";
+			sourceTree = "<group>";
+		};
+		DA03D71824C76A0A00C0CC2B /* SCY Free Swim */ = {
+			isa = PBXGroup;
+			children = (
+				DA9FEB0E24C76335005B534A /* SCYFreeSwimPaging.swift */,
+				DA03D71624C769C000C0CC2B /* SCYFreeSwimWkt.swift */,
+			);
+			path = "SCY Free Swim";
+			sourceTree = "<group>";
+		};
+		DA03D71B24C76A5C00C0CC2B /* SCM Free Swim */ = {
+			isa = PBXGroup;
+			children = (
+				DA03D71924C76A2300C0CC2B /* SCMFreeSwimWkt.swift */,
+				DA9FEB1124C7650F005B534A /* SCMFreeSwimPaging.swift */,
+			);
+			path = "SCM Free Swim";
+			sourceTree = "<group>";
+		};
+		DA03D71E24C7706A00C0CC2B /* LCM Free Swim */ = {
+			isa = PBXGroup;
+			children = (
+				DA03D71C24C76A7E00C0CC2B /* LCMFreeSwimWkt.swift */,
+				DAD1879224C628980052A6F5 /* LCMFreeSwimPaging.swift */,
+			);
+			path = "LCM Free Swim";
+			sourceTree = "<group>";
+		};
+		DA0EB5C824C0AC49001AE673 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				DA0EB5CB24C0AC4D001AE673 /* HealthKit.framework */,
+				DA0EB5C924C0AC49001AE673 /* HealthKit.framework */,
+				04A8E0EF77E22BC7196CDE22 /* Pods_Phlex_Swim_Beta.framework */,
+				D99DD245182BC2905488D702 /* Pods_Phlex_Swim_Beta_WatchKit_App.framework */,
+				805803B8921A6C4FCA76D1A8 /* Pods_Phlex_Swim_Beta_WatchKit_Extension.framework */,
+				327065C29C29316AB0FA9F21 /* Pods_Phlex_Swim_Beta_Phlex_Swim_BetaUITests.framework */,
+				A6197E57D8863C21556B2AAD /* Pods_Phlex_Swim_BetaTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DA0EB5D324C0ACB6001AE673 /* Menu */ = {
+			isa = PBXGroup;
+			children = (
+				DA0EB5D424C0ACB6001AE673 /* MenuButton.swift */,
+				DA0EB5D524C0ACB6001AE673 /* MenuView.swift */,
+			);
+			path = Menu;
+			sourceTree = "<group>";
+		};
+		DA0EB5D724C0ACB6001AE673 /* Managers */ = {
+			isa = PBXGroup;
+			children = (
+				DA0EB5D224C0ACB6001AE673 /* HeartData.swift */,
+				DA0EB5D824C0ACB6001AE673 /* WorkoutManager.swift */,
+				DA0EB5D924C0ACB6001AE673 /* CoreMotionTest.swift */,
+				DA5E76F924C0CBAE00CBDC2B /* LocationManager.swift */,
+				18D4585F260DC82600170889 /* HealthKitManager.swift */,
+				DA0EB5DA24C0ACB6001AE673 /* MotionManager.swift */,
+			);
+			path = Managers;
+			sourceTree = "<group>";
+		};
+		DA0EB5EF24C0ACF3001AE673 /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				DA4A45C925C31E150084A1CE /* Colors.xcassets */,
+				DA52B6B924C162D400195A9D /* UnitConversion.swift */,
+				DA0EB5F024C0ACF3001AE673 /* RingFill.swift */,
+				DA0EB5F124C0ACF3001AE673 /* ColorManager.swift */,
+			);
+			path = Utilities;
+			sourceTree = "<group>";
+		};
+		DA14ED1224C0A094000B4CF0 = {
+			isa = PBXGroup;
+			children = (
+				DA14ED1D24C0A094000B4CF0 /* Phlex Swim Beta */,
+				DA14ED3424C0A096000B4CF0 /* Phlex Swim BetaTests */,
+				DA14ED3F24C0A096000B4CF0 /* Phlex Swim BetaUITests */,
+				DA14ED4924C0A096000B4CF0 /* Phlex Swim Beta WatchKit App */,
+				DA14ED5824C0A097000B4CF0 /* Phlex Swim Beta WatchKit Extension */,
+				DA14ED1C24C0A094000B4CF0 /* Products */,
+				DA0EB5C824C0AC49001AE673 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		DA14ED1C24C0A094000B4CF0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DA14ED1B24C0A094000B4CF0 /* Phlex Swim Beta.app */,
+				DA14ED4524C0A096000B4CF0 /* Phlex Swim Beta WatchKit App.app */,
+				DA14ED5424C0A097000B4CF0 /* Phlex Swim Beta WatchKit Extension.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DA14ED1D24C0A094000B4CF0 /* Phlex Swim Beta */ = {
+			isa = PBXGroup;
+			children = (
+				DA9FEB0D24C75A76005B534A /* MetricMeasurementTypeEnum.h */,
+				DA4A45D925C320780084A1CE /* PhlexSwimBeta.swift */,
+				DA14ED2224C0A094000B4CF0 /* ContentView.swift */,
+				DA4A45D425C31FA70084A1CE /* ViewRouter.swift */,
+				DA56F7E625C3281E00792C4D /* Dashboard */,
+				DA4A45EC25C3268E0084A1CE /* Workout and Calendar View */,
+				DA4A45ED25C326A10084A1CE /* Profile View */,
+				DA4A45B225C31BF40084A1CE /* Gamification Template */,
+				DA0EB5EF24C0ACF3001AE673 /* Utilities */,
+				DA14ED2424C0A095000B4CF0 /* Assets.xcassets */,
+				DA14ED2924C0A095000B4CF0 /* LaunchScreen.storyboard */,
+				DA14ED2C24C0A095000B4CF0 /* Info.plist */,
+				DA14ED2624C0A095000B4CF0 /* Preview Content */,
+			);
+			path = "Phlex Swim Beta";
+			sourceTree = "<group>";
+		};
+		DA14ED2624C0A095000B4CF0 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				DA14ED2724C0A095000B4CF0 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		DA14ED3424C0A096000B4CF0 /* Phlex Swim BetaTests */ = {
+			isa = PBXGroup;
+			children = (
+				DA14ED3524C0A096000B4CF0 /* Phlex_Swim_BetaTests.swift */,
+				DA14ED3724C0A096000B4CF0 /* Info.plist */,
+			);
+			path = "Phlex Swim BetaTests";
+			sourceTree = "<group>";
+		};
+		DA14ED3F24C0A096000B4CF0 /* Phlex Swim BetaUITests */ = {
+			isa = PBXGroup;
+			children = (
+				DA14ED4024C0A096000B4CF0 /* Phlex_Swim_BetaUITests.swift */,
+				DA14ED4224C0A096000B4CF0 /* Info.plist */,
+			);
+			path = "Phlex Swim BetaUITests";
+			sourceTree = "<group>";
+		};
+		DA14ED4924C0A096000B4CF0 /* Phlex Swim Beta WatchKit App */ = {
+			isa = PBXGroup;
+			children = (
+				18FDDD4125F8FE9100E16C95 /* Phlex Swim Beta WatchKit App.entitlements */,
+				DA14ED4A24C0A096000B4CF0 /* Interface.storyboard */,
+				DA14ED4D24C0A097000B4CF0 /* Assets.xcassets */,
+				DA14ED4F24C0A097000B4CF0 /* Info.plist */,
+			);
+			path = "Phlex Swim Beta WatchKit App";
+			sourceTree = "<group>";
+		};
+		DA14ED5824C0A097000B4CF0 /* Phlex Swim Beta WatchKit Extension */ = {
+			isa = PBXGroup;
+			children = (
+				DA14ED5924C0A097000B4CF0 /* HostingController.swift */,
+				DA14ED5D24C0A097000B4CF0 /* ExtensionDelegate.swift */,
+				DA430C6525BD33570056640A /* StartView.swift */,
+				DA86D92825C4865A0063545C /* Heart Rate View Option 1.swift */,
+				DA430C5425BD325A0056640A /* ContentView.swift */,
+				18FDDED726036A3500E16C95 /* View Model */,
+				DAB7876A24C0B81400F5BD5D /* Views */,
+				DA0EB5D724C0ACB6001AE673 /* Managers */,
+				DA0EB5CF24C0ACB6001AE673 /* PagingView.swift */,
+				DA8E6B9C24C4A11B00DEB325 /* Reminders */,
+				DA8E6B9924C4A10500DEB325 /* SmartAnalysis */,
+				DA8E6B9524C4A0D200DEB325 /* StartingWorkout */,
+				DA8E6B9624C4A0E700DEB325 /* Stats */,
+				DA14ED5F24C0A097000B4CF0 /* NotificationController.swift */,
+				DA14ED6124C0A097000B4CF0 /* NotificationView.swift */,
+				DA14ED6324C0A097000B4CF0 /* ComplicationController.swift */,
+				DA0EB5F624C0B0E9001AE673 /* Colors.xcassets */,
+				DA14ED6524C0A098000B4CF0 /* Assets.xcassets */,
+				DA14ED6A24C0A098000B4CF0 /* Info.plist */,
+				DA14ED6B24C0A098000B4CF0 /* PushNotificationPayload.apns */,
+				DA14ED6724C0A098000B4CF0 /* Preview Content */,
+			);
+			path = "Phlex Swim Beta WatchKit Extension";
+			sourceTree = "<group>";
+		};
+		DA14ED6724C0A098000B4CF0 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				DA14ED6824C0A098000B4CF0 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		DA4A45B225C31BF40084A1CE /* Gamification Template */ = {
+			isa = PBXGroup;
+			children = (
+				DA4A45B725C31C2A0084A1CE /* AirlineBookingApp.swift */,
+				DA4A45B425C31C2A0084A1CE /* ExploreView.swift */,
+				DA4A45B525C31C2A0084A1CE /* LocationView.swift */,
+				DA4A45B325C31C2A0084A1CE /* ModalSheetView.swift */,
+				DA4A45B625C31C2A0084A1CE /* SearchView.swift */,
+			);
+			path = "Gamification Template";
+			sourceTree = "<group>";
+		};
+		DA4A45EC25C3268E0084A1CE /* Workout and Calendar View */ = {
+			isa = PBXGroup;
+			children = (
+				DA4A45E425C3263A0084A1CE /* Workout and Calendar View.swift */,
+			);
+			path = "Workout and Calendar View";
+			sourceTree = "<group>";
+		};
+		DA4A45ED25C326A10084A1CE /* Profile View */ = {
+			isa = PBXGroup;
+			children = (
+				DA4A45CE25C31E8E0084A1CE /* SegmentedControlView.swift */,
+				DA4A45C425C31E0E0084A1CE /* ProfileView.swift */,
+			);
+			path = "Profile View";
+			sourceTree = "<group>";
+		};
+		DA56F7E625C3281E00792C4D /* Dashboard */ = {
+			isa = PBXGroup;
+			children = (
+				DA56F7E725C3282800792C4D /* DashboardView.swift */,
+				DA56F7EF25C3291800792C4D /* HorizontalDates.swift */,
+			);
+			path = Dashboard;
+			sourceTree = "<group>";
+		};
+		DA8E6B9524C4A0D200DEB325 /* StartingWorkout */ = {
+			isa = PBXGroup;
+			children = (
+				DA8E6B9024C49DC500DEB325 /* StartWorkoutList.swift */,
+				DA0EB5DC24C0ACB6001AE673 /* StartWorkoutView.swift */,
+				DAD1879024C625670052A6F5 /* StartingWorkout.swift */,
+				DA1E939424C6184F0014FF3C /* TestView.swift */,
+			);
+			path = StartingWorkout;
+			sourceTree = "<group>";
+		};
+		DA8E6B9624C4A0E700DEB325 /* Stats */ = {
+			isa = PBXGroup;
+			children = (
+				DA0EB5D024C0ACB6001AE673 /* StatsView.swift */,
+				DA8E6B9724C4A0FC00DEB325 /* StatsViewModel.swift */,
+			);
+			path = Stats;
+			sourceTree = "<group>";
+		};
+		DA8E6B9924C4A10500DEB325 /* SmartAnalysis */ = {
+			isa = PBXGroup;
+			children = (
+				DA0EB5D624C0ACB6001AE673 /* SmartAnalysis.swift */,
+				DA8E6B9A24C4A11700DEB325 /* SmartAnalysisModel.swift */,
+			);
+			path = SmartAnalysis;
+			sourceTree = "<group>";
+		};
+		DA8E6B9C24C4A11B00DEB325 /* Reminders */ = {
+			isa = PBXGroup;
+			children = (
+				DA0EB5D124C0ACB6001AE673 /* RemindersView.swift */,
+				DA8E6B9D24C4A12400DEB325 /* RemindersViewModel.swift */,
+			);
+			path = Reminders;
+			sourceTree = "<group>";
+		};
+		DAB7876A24C0B81400F5BD5D /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				1839394D25CBCE0100AF760A /* BaseHomeView */,
+				DA0EB5D324C0ACB6001AE673 /* Menu */,
+				DAB7876B24C0BB4100F5BD5D /* WorkoutTypes */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		DAB7876B24C0BB4100F5BD5D /* WorkoutTypes */ = {
+			isa = PBXGroup;
+			children = (
+				DAD1879824C636970052A6F5 /* TestWorkout */,
+				DACBA51324C5E137006398F7 /* Guided Workout */,
+				DACBA51024C5E123006398F7 /* Open Water Workout */,
+				DACBA50C24C5E10C006398F7 /* Free Swim Workout */,
+				DACBA50924C5E0F4006398F7 /* Heart Rate Workout */,
+			);
+			path = WorkoutTypes;
+			sourceTree = "<group>";
+		};
+		DACBA50924C5E0F4006398F7 /* Heart Rate Workout */ = {
+			isa = PBXGroup;
+			children = (
+				DA8E6B9F24C4A13A00DEB325 /* HeartRateView.swift */,
+				DA86678124C5E95D0087F2F9 /* DetailView.swift */,
+				DACBA50A24C5E108006398F7 /* Heart Rate Explainer.swift */,
+			);
+			path = "Heart Rate Workout";
+			sourceTree = "<group>";
+		};
+		DACBA50C24C5E10C006398F7 /* Free Swim Workout */ = {
+			isa = PBXGroup;
+			children = (
+				DA03D71824C76A0A00C0CC2B /* SCY Free Swim */,
+				DA03D71B24C76A5C00C0CC2B /* SCM Free Swim */,
+				DA8E6B9324C4A07C00DEB325 /* FreeSwimView.swift */,
+				DA03D71E24C7706A00C0CC2B /* LCM Free Swim */,
+				DACBA50D24C5E118006398F7 /* FreeSwimExplainer.swift */,
+				DACBA50F24C5E11D006398F7 /* Pool Length Change */,
+			);
+			path = "Free Swim Workout";
+			sourceTree = "<group>";
+		};
+		DACBA50F24C5E11D006398F7 /* Pool Length Change */ = {
+			isa = PBXGroup;
+			children = (
+				DACBA51624C5E157006398F7 /* PoolLengthChange.swift */,
+			);
+			path = "Pool Length Change";
+			sourceTree = "<group>";
+		};
+		DACBA51024C5E123006398F7 /* Open Water Workout */ = {
+			isa = PBXGroup;
+			children = (
+				DAB7876C24C0BB5600F5BD5D /* Open Water View.swift */,
+				DAD1879624C62CA30052A6F5 /* OpenWaterPaGING.swift */,
+				DACBA51124C5E132006398F7 /* OpenWaterExplainer.swift */,
+			);
+			path = "Open Water Workout";
+			sourceTree = "<group>";
+		};
+		DACBA51324C5E137006398F7 /* Guided Workout */ = {
+			isa = PBXGroup;
+			children = (
+				DA0EB5DE24C0ACB6001AE673 /* GuidedView.swift */,
+				DAD1879424C62B740052A6F5 /* GuidedWorkoutPager.swift */,
+				DACBA51424C5E140006398F7 /* GuidedWorkoutExplainer.swift */,
+			);
+			path = "Guided Workout";
+			sourceTree = "<group>";
+		};
+		DAD1879824C636970052A6F5 /* TestWorkout */ = {
+			isa = PBXGroup;
+			children = (
+				DAD1879924C636A00052A6F5 /* TestWorkoutPager.swift */,
+				DAD1879B24C636A70052A6F5 /* TestWorkoutView.swift */,
+				DAD1879D24C636D60052A6F5 /* TestExplainer.swift */,
+				1839395E25CC0B3100AF760A /* TestWorkoutInitialPager_View.swift */,
+				18609EC525DA688F002AA8B9 /* TimePicker_view.swift */,
+				1839399225CC579500AF760A /* TestWorkoutStartTimer.swift */,
+				183939A225CD2A4D00AF760A /* TestWorkoutDashboard.swift */,
+				189175FD25D3B001009FD12C /* PagerBaseView.swift */,
+				18B392FA25E0BDEA001285F2 /* CompleteWorkout_View.swift */,
+				18B8792B25E27F8B0093D47D /* BarChart */,
+			);
+			path = TestWorkout;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DA14ED1A24C0A094000B4CF0 /* Phlex Swim Beta */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DA14ED7624C0A098000B4CF0 /* Build configuration list for PBXNativeTarget "Phlex Swim Beta" */;
+			buildPhases = (
+				DA14ED1724C0A094000B4CF0 /* Sources */,
+				DA14ED1824C0A094000B4CF0 /* Frameworks */,
+				DA14ED1924C0A094000B4CF0 /* Resources */,
+				DA14ED7524C0A098000B4CF0 /* Embed Watch Content */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Phlex Swim Beta";
+			packageProductDependencies = (
+			);
+			productName = "Phlex Swim Beta";
+			productReference = DA14ED1B24C0A094000B4CF0 /* Phlex Swim Beta.app */;
+			productType = "com.apple.product-type.application";
+		};
+		DA14ED4424C0A096000B4CF0 /* Phlex Swim Beta WatchKit App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DA14ED7224C0A098000B4CF0 /* Build configuration list for PBXNativeTarget "Phlex Swim Beta WatchKit App" */;
+			buildPhases = (
+				DA14ED4324C0A096000B4CF0 /* Resources */,
+				DA14ED7124C0A098000B4CF0 /* Embed App Extensions */,
+				3F2FD8326547DBEC42DECE4F /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DA14ED5724C0A097000B4CF0 /* PBXTargetDependency */,
+			);
+			name = "Phlex Swim Beta WatchKit App";
+			productName = "Phlex Swim Beta WatchKit App";
+			productReference = DA14ED4524C0A096000B4CF0 /* Phlex Swim Beta WatchKit App.app */;
+			productType = "com.apple.product-type.application.watchapp2";
+		};
+		DA14ED5324C0A097000B4CF0 /* Phlex Swim Beta WatchKit Extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DA14ED6E24C0A098000B4CF0 /* Build configuration list for PBXNativeTarget "Phlex Swim Beta WatchKit Extension" */;
+			buildPhases = (
+				DA14ED5024C0A097000B4CF0 /* Sources */,
+				DA14ED5124C0A097000B4CF0 /* Frameworks */,
+				DA14ED5224C0A097000B4CF0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Phlex Swim Beta WatchKit Extension";
+			packageProductDependencies = (
+			);
+			productName = "Phlex Swim Beta WatchKit Extension";
+			productReference = DA14ED5424C0A097000B4CF0 /* Phlex Swim Beta WatchKit Extension.appex */;
+			productType = "com.apple.product-type.watchkit2-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DA14ED1324C0A094000B4CF0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1200;
+				LastUpgradeCheck = 1200;
+				TargetAttributes = {
+					DA14ED1A24C0A094000B4CF0 = {
+						CreatedOnToolsVersion = 12.0;
+					};
+					DA14ED4424C0A096000B4CF0 = {
+						CreatedOnToolsVersion = 12.0;
+					};
+					DA14ED5324C0A097000B4CF0 = {
+						CreatedOnToolsVersion = 12.0;
+					};
+				};
+			};
+			buildConfigurationList = DA14ED1624C0A094000B4CF0 /* Build configuration list for PBXProject "Phlex Swim Beta" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DA14ED1224C0A094000B4CF0;
+			packageReferences = (
+			);
+			productRefGroup = DA14ED1C24C0A094000B4CF0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DA14ED1A24C0A094000B4CF0 /* Phlex Swim Beta */,
+				DA14ED4424C0A096000B4CF0 /* Phlex Swim Beta WatchKit App */,
+				DA14ED5324C0A097000B4CF0 /* Phlex Swim Beta WatchKit Extension */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DA14ED1924C0A094000B4CF0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DA4A45CA25C31E150084A1CE /* Colors.xcassets in Resources */,
+				DA14ED2B24C0A095000B4CF0 /* LaunchScreen.storyboard in Resources */,
+				DA5F7AEE24C1E2CD00FF0BF5 /* Colors.xcassets in Resources */,
+				DA14ED2824C0A095000B4CF0 /* Preview Assets.xcassets in Resources */,
+				DA14ED2524C0A095000B4CF0 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DA14ED4324C0A096000B4CF0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DA14ED4E24C0A097000B4CF0 /* Assets.xcassets in Resources */,
+				DA14ED4C24C0A096000B4CF0 /* Interface.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DA14ED5224C0A097000B4CF0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DA0EB5F724C0B0EA001AE673 /* Colors.xcassets in Resources */,
+				DA14ED6924C0A098000B4CF0 /* Preview Assets.xcassets in Resources */,
+				DA14ED6624C0A098000B4CF0 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DA14ED1724C0A094000B4CF0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DA4A45D525C31FA70084A1CE /* ViewRouter.swift in Sources */,
+				DA56F7E825C3282800792C4D /* DashboardView.swift in Sources */,
+				DA4A45B825C31C2A0084A1CE /* ModalSheetView.swift in Sources */,
+				DA4A45C525C31E0E0084A1CE /* ProfileView.swift in Sources */,
+				DA4A45B925C31C2A0084A1CE /* ExploreView.swift in Sources */,
+				DA4A45BC25C31C2A0084A1CE /* AirlineBookingApp.swift in Sources */,
+				DA56F7F025C3291800792C4D /* HorizontalDates.swift in Sources */,
+				DA0EB5F224C0ACF3001AE673 /* RingFill.swift in Sources */,
+				DA52B6BA24C162D400195A9D /* UnitConversion.swift in Sources */,
+				DA0EB5F324C0ACF3001AE673 /* ColorManager.swift in Sources */,
+				DA4A45DA25C320780084A1CE /* PhlexSwimBeta.swift in Sources */,
+				DA4A45CF25C31E8E0084A1CE /* SegmentedControlView.swift in Sources */,
+				DA5E76FF24C0CFCF00CBDC2B /* LocationManager.swift in Sources */,
+				DA4A45BA25C31C2A0084A1CE /* LocationView.swift in Sources */,
+				DA4A45E525C3263A0084A1CE /* Workout and Calendar View.swift in Sources */,
+				DA14ED2324C0A094000B4CF0 /* ContentView.swift in Sources */,
+				DA4A45BB25C31C2A0084A1CE /* SearchView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DA14ED5024C0A097000B4CF0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DA86D92925C4865A0063545C /* Heart Rate View Option 1.swift in Sources */,
+				DA8E6B9824C4A0FC00DEB325 /* StatsViewModel.swift in Sources */,
+				18FDDED926036A8000E16C95 /* InsertWorkout_VM.swift in Sources */,
+				DACBA51224C5E132006398F7 /* OpenWaterExplainer.swift in Sources */,
+				18B392FB25E0BDEA001285F2 /* CompleteWorkout_View.swift in Sources */,
+				DA430C5A25BD326A0056640A /* ContentView.swift in Sources */,
+				DA430C6625BD33570056640A /* StartView.swift in Sources */,
+				DA0EB5E424C0ACB6001AE673 /* HeartData.swift in Sources */,
+				18D45860260DC82600170889 /* HealthKitManager.swift in Sources */,
+				DAD1879124C625670052A6F5 /* StartingWorkout.swift in Sources */,
+				DACBA51724C5E157006398F7 /* PoolLengthChange.swift in Sources */,
+				DA8E6B9E24C4A12400DEB325 /* RemindersViewModel.swift in Sources */,
+				DA8E6B9224C49DE900DEB325 /* StartWorkoutList.swift in Sources */,
+				DAD1879724C62CA30052A6F5 /* OpenWaterPaGING.swift in Sources */,
+				DAB7876E24C0BB5C00F5BD5D /* Open Water View.swift in Sources */,
+				DA0EB5E124C0ACB6001AE673 /* PagingView.swift in Sources */,
+				DACBA50E24C5E118006398F7 /* FreeSwimExplainer.swift in Sources */,
+				DA0EB5E724C0ACB6001AE673 /* SmartAnalysis.swift in Sources */,
+				182863FF25E67661008CE727 /* EmptyView.swift in Sources */,
+				DAD1879524C62B740052A6F5 /* GuidedWorkoutPager.swift in Sources */,
+				DA0EB5E824C0ACB6001AE673 /* WorkoutManager.swift in Sources */,
+				DA8E6BA024C4A13A00DEB325 /* HeartRateView.swift in Sources */,
+				DACBA51524C5E140006398F7 /* GuidedWorkoutExplainer.swift in Sources */,
+				DA14ED5A24C0A097000B4CF0 /* HostingController.swift in Sources */,
+				1839395225CBCF2800AF760A /* BaseHomeView.swift in Sources */,
+				DA8E6B9B24C4A11700DEB325 /* SmartAnalysisModel.swift in Sources */,
+				DAD1879A24C636A00052A6F5 /* TestWorkoutPager.swift in Sources */,
+				18B8793225E2800C0093D47D /* BarWithLabel.swift in Sources */,
+				DA14ED6024C0A097000B4CF0 /* NotificationController.swift in Sources */,
+				DA0EB5E624C0ACB6001AE673 /* MenuView.swift in Sources */,
+				DA8E6B9424C4A07C00DEB325 /* FreeSwimView.swift in Sources */,
+				DA9FEB1024C76360005B534A /* SCYFreeSwimPaging.swift in Sources */,
+				DA03D71D24C76A7E00C0CC2B /* LCMFreeSwimWkt.swift in Sources */,
+				DA86678224C5E95D0087F2F9 /* DetailView.swift in Sources */,
+				DA0EB5F424C0ACF9001AE673 /* RingFill.swift in Sources */,
+				DA1E939524C6184F0014FF3C /* TestView.swift in Sources */,
+				1839395F25CC0B3100AF760A /* TestWorkoutInitialPager_View.swift in Sources */,
+				1839399325CC579500AF760A /* TestWorkoutStartTimer.swift in Sources */,
+				DA0EB5E224C0ACB6001AE673 /* StatsView.swift in Sources */,
+				DA03D71724C769C000C0CC2B /* SCYFreeSwimWkt.swift in Sources */,
+				DA14ED5E24C0A097000B4CF0 /* ExtensionDelegate.swift in Sources */,
+				DA0EB5E324C0ACB6001AE673 /* RemindersView.swift in Sources */,
+				DA0EB5F524C0ACFB001AE673 /* ColorManager.swift in Sources */,
+				DACBA50B24C5E108006398F7 /* Heart Rate Explainer.swift in Sources */,
+				DA0EB5EE24C0ACB6001AE673 /* GuidedView.swift in Sources */,
+				DA0EB5EC24C0ACB6001AE673 /* StartWorkoutView.swift in Sources */,
+				DA0EB5EA24C0ACB6001AE673 /* MotionManager.swift in Sources */,
+				DAD1879C24C636A70052A6F5 /* TestWorkoutView.swift in Sources */,
+				DA9FEB1224C7650F005B534A /* SCMFreeSwimPaging.swift in Sources */,
+				DA14ED6224C0A097000B4CF0 /* NotificationView.swift in Sources */,
+				DA03D72024C775AB00C0CC2B /* LCMFreeSwimPaging.swift in Sources */,
+				18B8793125E2800C0093D47D /* Data.swift in Sources */,
+				DA03D71A24C76A2300C0CC2B /* SCMFreeSwimWkt.swift in Sources */,
+				DA0EB5E524C0ACB6001AE673 /* MenuButton.swift in Sources */,
+				18B3931225E20ED4001285F2 /* BarChart.swift in Sources */,
+				DAD1879E24C636D60052A6F5 /* TestExplainer.swift in Sources */,
+				DA5E76FE24C0CF6000CBDC2B /* LocationManager.swift in Sources */,
+				DA0EB5E924C0ACB6001AE673 /* CoreMotionTest.swift in Sources */,
+				183939A325CD2A4D00AF760A /* TestWorkoutDashboard.swift in Sources */,
+				18609EC625DA688F002AA8B9 /* TimePicker_view.swift in Sources */,
+				189175FE25D3B001009FD12C /* PagerBaseView.swift in Sources */,
+				DA14ED6424C0A097000B4CF0 /* ComplicationController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DA14ED5724C0A097000B4CF0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DA14ED5324C0A097000B4CF0 /* Phlex Swim Beta WatchKit Extension */;
+			targetProxy = DA14ED5624C0A097000B4CF0 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		DA14ED2924C0A095000B4CF0 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DA14ED2A24C0A095000B4CF0 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		DA14ED4A24C0A096000B4CF0 /* Interface.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DA14ED4B24C0A096000B4CF0 /* Base */,
+			);
+			name = Interface.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DA14ED6C24C0A098000B4CF0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		DA14ED6D24C0A098000B4CF0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		DA14ED6F24C0A098000B4CF0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
+				CODE_SIGN_ENTITLEMENTS = "Phlex Swim Beta WatchKit Extension/Phlex Swim Beta WatchKit Extension.entitlements";
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"Phlex Swim Beta WatchKit Extension/Preview Content\"";
+				DEVELOPMENT_TEAM = 85NNGD7X37;
+				ENABLE_PREVIEWS = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				INFOPLIST_FILE = "Phlex Swim Beta WatchKit Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 0.62;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.phlexswim.Phlex-Swim-Alpha.watchkitapp.watchkitextension";
+				PRODUCT_NAME = "${TARGET_NAME}";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 7.2;
+			};
+			name = Debug;
+		};
+		DA14ED7024C0A098000B4CF0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
+				CODE_SIGN_ENTITLEMENTS = "Phlex Swim Beta WatchKit Extension/Phlex Swim Beta WatchKit Extension.entitlements";
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"Phlex Swim Beta WatchKit Extension/Preview Content\"";
+				DEVELOPMENT_TEAM = 85NNGD7X37;
+				ENABLE_PREVIEWS = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				INFOPLIST_FILE = "Phlex Swim Beta WatchKit Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 0.62;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.phlexswim.Phlex-Swim-Alpha.watchkitapp.watchkitextension";
+				PRODUCT_NAME = "${TARGET_NAME}";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 7.2;
+			};
+			name = Release;
+		};
+		DA14ED7324C0A098000B4CF0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "Phlex Swim Beta WatchKit App/Phlex Swim Beta WatchKit App.entitlements";
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 85NNGD7X37;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Phlex\\ Swim\\ Beta\\ WatchKit\\ App",
+				);
+				IBSC_MODULE = Phlex_Swim_Beta_WatchKit_Extension;
+				INFOPLIST_FILE = "Phlex Swim Beta WatchKit App/Info.plist";
+				MARKETING_VERSION = 0.62;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.phlexswim.Phlex-Swim-Alpha.watchkitapp";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 7.2;
+			};
+			name = Debug;
+		};
+		DA14ED7424C0A098000B4CF0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "Phlex Swim Beta WatchKit App/Phlex Swim Beta WatchKit App.entitlements";
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 85NNGD7X37;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Phlex\\ Swim\\ Beta\\ WatchKit\\ App",
+				);
+				IBSC_MODULE = Phlex_Swim_Beta_WatchKit_Extension;
+				INFOPLIST_FILE = "Phlex Swim Beta WatchKit App/Info.plist";
+				MARKETING_VERSION = 0.62;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.phlexswim.Phlex-Swim-Alpha.watchkitapp";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 7.2;
+			};
+			name = Release;
+		};
+		DA14ED7724C0A098000B4CF0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "Phlex Swim Beta/Phlex Swim Beta.entitlements";
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"Phlex Swim Beta/Preview Content\"";
+				DEVELOPMENT_TEAM = 85NNGD7X37;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "Phlex Swim Beta/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 0.62;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.phlexswim.Phlex-Swim-Alpha";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		DA14ED7824C0A098000B4CF0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "Phlex Swim Beta/Phlex Swim Beta.entitlements";
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"Phlex Swim Beta/Preview Content\"";
+				DEVELOPMENT_TEAM = 85NNGD7X37;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "Phlex Swim Beta/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 0.62;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.phlexswim.Phlex-Swim-Alpha";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DA14ED1624C0A094000B4CF0 /* Build configuration list for PBXProject "Phlex Swim Beta" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DA14ED6C24C0A098000B4CF0 /* Debug */,
+				DA14ED6D24C0A098000B4CF0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DA14ED6E24C0A098000B4CF0 /* Build configuration list for PBXNativeTarget "Phlex Swim Beta WatchKit Extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DA14ED6F24C0A098000B4CF0 /* Debug */,
+				DA14ED7024C0A098000B4CF0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DA14ED7224C0A098000B4CF0 /* Build configuration list for PBXNativeTarget "Phlex Swim Beta WatchKit App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DA14ED7324C0A098000B4CF0 /* Debug */,
+				DA14ED7424C0A098000B4CF0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DA14ED7624C0A098000B4CF0 /* Build configuration list for PBXNativeTarget "Phlex Swim Beta" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DA14ED7724C0A098000B4CF0 /* Debug */,
+				DA14ED7824C0A098000B4CF0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DA14ED1324C0A094000B4CF0 /* Project object */;
+}

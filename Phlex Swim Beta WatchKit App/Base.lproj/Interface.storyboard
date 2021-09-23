@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder.WatchKit.Storyboard" version="3.0" toolsVersion="17701" targetRuntime="watchKit" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="NBu-mt-KyX">
+    <device id="watch38"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17703"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBWatchKitPlugin" version="17500"/>
+    </dependencies>
+    <scenes>
+        <!--Hosting Controller-->
+        <scene sceneID="RUd-og-cv4">
+            <objects>
+                <hostingController id="NBu-mt-KyX" customClass="HostingController" customModule="Phlex_Swim_Beta_WatchKit_App" customModuleProvider="target"/>
+            </objects>
+            <point key="canvasLocation" x="187" y="141"/>
+        </scene>
+        <!--Static Notification Interface Controller-->
+        <scene sceneID="AEw-b0-oYE">
+            <objects>
+                <notificationController id="YCC-NB-fut">
+                    <items>
+                        <label alignment="left" text="Alert Label" numberOfLines="0" id="IdU-wH-bcW"/>
+                    </items>
+                    <notificationCategory key="notificationCategory" identifier="myCategory" id="JfB-70-Muf"/>
+                    <connections>
+                        <outlet property="notificationAlertLabel" destination="IdU-wH-bcW" id="JKC-fr-R95"/>
+                        <segue destination="eXb-UN-Cd0" kind="relationship" relationship="dynamicInteractiveNotificationInterface" id="mpB-YA-K8N"/>
+                    </connections>
+                </notificationController>
+            </objects>
+            <point key="canvasLocation" x="187" y="462"/>
+        </scene>
+        <!--Notification Controller-->
+        <scene sceneID="Niz-AI-uX2">
+            <objects>
+                <controller id="eXb-UN-Cd0" customClass="NotificationController" customModule="Phlex_Swim_Beta_WatchKit_App" customModuleProvider="target"/>
+            </objects>
+            <point key="canvasLocation" x="488" y="462"/>
+        </scene>
+        <!--TimePicker_GBL-->
+        <scene sceneID="I5f-ob-UUL">
+            <objects>
+                <controller identifier="TimePicker_GBL" id="vXQ-aC-WVS" customClass="TimePicker_GBL" customModule="Phlex_Swim_Beta_WatchKit_Extension">
+                    <items>
+                        <label width="125" alignment="left" text="WatchKit Time Picker" numberOfLines="0" id="HJK-Im-vH2">
+                            <fontDescription key="font" type="boldSystem" pointSize="16"/>
+                        </label>
+                        <button width="1" alignment="left" title="Button" id="biw-fp-Tbn">
+                            <connections>
+                                <action selector="back" destination="vXQ-aC-WVS" id="pCa-i8-7eB"/>
+                            </connections>
+                        </button>
+                        <group width="1" height="65" alignment="left" id="0TO-9n-FCL">
+                            <items>
+                                <picker width="0.3333333" height="1" alignment="left" focusStyle="stack" indicatorMode="shownWhileFocused" id="Xei-KF-ZES">
+                                    <connections>
+                                        <action selector="hourPickerDidUpdate:" destination="vXQ-aC-WVS" id="zrO-sP-2yR"/>
+                                    </connections>
+                                </picker>
+                                <picker width="0.3333333" height="1" alignment="left" focusStyle="stack" indicatorMode="shownWhileFocused" id="hOk-SK-els">
+                                    <connections>
+                                        <action selector="minutePickerDidUpdate:" destination="vXQ-aC-WVS" id="wwn-yT-ade"/>
+                                    </connections>
+                                </picker>
+                                <picker width="0.3333333" height="1" alignment="left" focusStyle="stack" indicatorMode="shownWhileFocused" id="yXE-Td-fds">
+                                    <connections>
+                                        <action selector="amPmPickerDidUpdate:" destination="vXQ-aC-WVS" id="35P-PZ-pX5"/>
+                                    </connections>
+                                </picker>
+                            </items>
+                        </group>
+                        <label alignment="left" text="Time Label" id="Ipg-Cg-fUe"/>
+                    </items>
+                    <variation key="device=watch38mm" spacing="10"/>
+                    <variation key="device=watch40mm" spacing="16"/>
+                    <variation key="device=watch42mm" spacing="25"/>
+                    <variation key="device=watch44mm" spacing="25"/>
+                    <connections>
+                        <outlet property="amPmTimePicker" destination="yXE-Td-fds" id="YK5-DT-8vC"/>
+                        <outlet property="hourTimePicker" destination="Xei-KF-ZES" id="way-pD-xYd"/>
+                        <outlet property="minuteTimePicker" destination="hOk-SK-els" id="kGD-9q-Yda"/>
+                    </connections>
+                </controller>
+            </objects>
+            <point key="canvasLocation" x="508" y="141"/>
+        </scene>
+    </scenes>
+</document>
